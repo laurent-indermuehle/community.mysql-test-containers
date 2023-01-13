@@ -1,10 +1,6 @@
 
 my57-py38-pymysql093
 my57-py38-mysqlclient201-pymysql0711
-my57-py39-pymysql093
-my57-py39-mysqlclient203-pymysql0711
-my57-py310-pymysql093
-my57-py310-mysqlclient211-pymysql0711
 my80-py38-pymysql093
 my80-py38-mysqlclient201-pymysql0711
 my80-py39-pymysql093
