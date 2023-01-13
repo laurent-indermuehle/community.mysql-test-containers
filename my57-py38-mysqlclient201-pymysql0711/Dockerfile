@@ -14,7 +14,7 @@ RUN apt update -y && \
     default-libmysqlclient-dev \
     build-essential
 
-RUN python3.8 -m pip install --disable-pip-version-check --no-cache-dir pymysql==0.7.11 mysqlclient==2.0.1
+RUN python3.8 -m pip install --disable-pip-version-check --no-cache-dir mysqlclient==2.0.1 pymysql==0.7.11 
 
 ENV container=docker
 CMD ["/sbin/init"]
