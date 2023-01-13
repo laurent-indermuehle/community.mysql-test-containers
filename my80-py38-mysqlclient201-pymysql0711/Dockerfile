@@ -8,6 +8,7 @@ FROM quay.io/ansible/ubuntu2004-test-container:main
 RUN apt update -y && \
     DEBIAN_FRONTEND=noninteractive apt upgrade -y --no-install-recommends && \
     DEBIAN_FRONTEND=noninteractive apt install -y --no-install-recommends \
+    python3.8 \
     mysql-client \
     iproute2 \
     python3-dev \
