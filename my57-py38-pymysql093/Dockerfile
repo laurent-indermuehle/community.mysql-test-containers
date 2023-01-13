@@ -1,4 +1,5 @@
 FROM quay.io/ansible/ubuntu1804-test-container:main
+# ubuntu1804 comes with mysql-client-5.7
 
 # iproute2  # To grab docker network gateway address
 RUN apt update -y && \
