@@ -13,3 +13,6 @@ mariadb-py39-pymysql093
 mariadb-py39-mysqlclient203
 mariadb-py310-pymysql093
 mariadb-py310-mysqlclient211
+
+ubuntu20.04 -> mariadb-client-10.3
+ubuntu22.04 -> mariadb-client-10.6
