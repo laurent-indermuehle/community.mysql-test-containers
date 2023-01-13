@@ -1,9 +1,9 @@
 FROM quay.io/ansible/ubuntu1804-test-container:main
 
 # iproute2  # To grab docker network gateway address
-RUN apt-get update -y && \
-    DEBIAN_FRONTEND=noninteractive apt-get upgrade -y --no-install-recommends && \
-    DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+RUN apt update -y && \
+    DEBIAN_FRONTEND=noninteractive apt upgrade -y --no-install-recommends && \
+    DEBIAN_FRONTEND=noninteractive apt install -y --no-install-recommends \
     python3.8 \
     mysql-client \
     iproute2
