@@ -2,7 +2,7 @@ FROM quay.io/ansible/ubuntu2004-test-container:main
 # ubuntu2004 comes with mysql-client-8
 
 # iproute2  # To grab docker network gateway address
-# python3-dev                  # Reqs for mysqlclient
+# python3.9-dev                # Reqs for mysqlclient
 # default-libmysqlclient-dev   # Reqs for mysqlclient
 # build-essential              # Reqs for mysqlclient
 RUN apt update -y && \
@@ -11,7 +11,7 @@ RUN apt update -y && \
     python3.9 \
     mysql-client \
     iproute2 \
-    python3-dev \
+    python3.9-dev \
     default-libmysqlclient-dev \
     build-essential
 
