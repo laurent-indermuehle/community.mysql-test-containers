@@ -1,5 +1,5 @@
 FROM quay.io/ansible/ubuntu2204-test-container:main
-# ubuntu2204 comes with mysql-client-8 and is first to include python3.10
+# ubuntu2204 comes with mysql-client-8
 
 # iproute2  # To grab docker network gateway address
 # python3.10-dev               # Reqs for mysqlclient
