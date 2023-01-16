@@ -9,9 +9,9 @@ RUN apt update -y && \
     DEBIAN_FRONTEND=noninteractive apt upgrade -y --no-install-recommends && \
     DEBIAN_FRONTEND=noninteractive apt install -y --no-install-recommends \
     python3.9 \
+    python3.9-dev \
     mysql-client \
     iproute2 \
-    python3.9-dev \
     default-libmysqlclient-dev \
     build-essential
 
