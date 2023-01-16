@@ -37,9 +37,9 @@ The bellow informations helps determine which containers to craft for our tests.
   - mariadb-client-10.6
 
 
-## Mysqlclient compatibility with Python
+## Mysqlclient versions
 
-By looking at the packages for Windows [here](https://pypi.org/simple/mysqlclient/) we can guess was version are available per Python version:
+By looking at the packages for Windows [here](https://pypi.org/simple/mysqlclient/) we can guess what version are available per Python version:
 
 Python3.8:
 
@@ -64,3 +64,9 @@ Python 3.10:
 Python 3.11:
 
 - 2.1.1
+
+## PyMysql versions
+
+Since we only begin to test MariaDB seriously in 2023, we will include starting at PyMySQL 0.9.x and newer. The v0.7.11 was released back in 2017. Since it was marked as tested for MySQL 5.7 by community.mysql, we keep this version for MySQL.
+
+v1.0.2 is out since 2021, so it's time we add it to our tests.
