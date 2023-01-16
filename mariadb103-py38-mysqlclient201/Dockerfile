@@ -9,9 +9,9 @@ RUN apt update -y && \
     DEBIAN_FRONTEND=noninteractive apt upgrade -y --no-install-recommends && \
     DEBIAN_FRONTEND=noninteractive apt install -y --no-install-recommends \
     python3.8 \
+    python3.8-dev \
     mariadb-client \
     iproute2 \
-    python3.8-dev \
     default-libmysqlclient-dev \
     build-essential
 
