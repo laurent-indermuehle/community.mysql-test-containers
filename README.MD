@@ -1,6 +1,8 @@
 
 # Community.mysql test-containers
 
+**Project archived. Test images are now build directly from the repo [community.mysql](https://github.com/ansible-collections/community.mysql/). See [PR 490](https://github.com/ansible-collections/community.mysql/pull/490) for details..**
+
 Those images are used by the integrations tests of [ansible-collections/community.mysql](https://github.com/ansible-collections/community.mysql).
 
 They contains the python connector for MySQL/MariaDB and a mysql-client/mariadb-client.
